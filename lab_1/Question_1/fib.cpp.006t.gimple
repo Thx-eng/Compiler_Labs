@@ -1,0 +1,53 @@
+int main ()
+{
+  int D.53862;
+
+  {
+    int a;
+    int b;
+    int t;
+    int n;
+    int i;
+
+    try
+      {
+        a = 0;
+        b = 1;
+        i = 1;
+        std::operator<< <std::char_traits<char> > (&cout, "\xe8\xaf\xb7\xe8\xbe\x93\xe5\x85\xa5\xe4\xbd\xa0\xe6\x83\xb3\xe8\xa6\x81\xe7\x9a\x84\xe6\x96\x90\xe6\xb3\xa2\xe9\x82\xa3\xe5\xa5\x91\xe6\x95\xb0\xe5\x88\x97\xe7\x9a\x84\xe9\xa1\xb9\xe6\x95\xb0: ");
+        std::basic_istream<char>::operator>> (&cin, &n);
+        _1 = std::operator<< <std::char_traits<char> > (&cout, "\xe6\x96\x90\xe6\xb3\xa2\xe9\x82\xa3\xe5\xa5\x91\xe6\x95\xb0\xe5\x88\x97\xe7\xac\xac 0 \xe9\xa1\xb9: ");
+        _2 = std::basic_ostream<char>::operator<< (_1, a);
+        std::basic_ostream<char>::operator<< (_2, endl);
+        _3 = std::operator<< <std::char_traits<char> > (&cout, "\xe6\x96\x90\xe6\xb3\xa2\xe9\x82\xa3\xe5\xa5\x91\xe6\x95\xb0\xe5\x88\x97\xe7\xac\xac 1 \xe9\xa1\xb9: ");
+        _4 = std::basic_ostream<char>::operator<< (_3, b);
+        std::basic_ostream<char>::operator<< (_4, endl);
+        goto <D.49761>;
+        <D.49762>:
+        t = b;
+        b = a + b;
+        _5 = std::operator<< <std::char_traits<char> > (&cout, "\xe6\x96\x90\xe6\xb3\xa2\xe9\x82\xa3\xe5\xa5\x91\xe6\x95\xb0\xe5\x88\x97\xe7\xac\xac ");
+        _6 = i + 1;
+        _7 = std::basic_ostream<char>::operator<< (_5, _6);
+        _8 = std::operator<< <std::char_traits<char> > (_7, " \xe9\xa1\xb9: ");
+        _9 = std::basic_ostream<char>::operator<< (_8, b);
+        std::basic_ostream<char>::operator<< (_9, endl);
+        a = t;
+        i = i + 1;
+        <D.49761>:
+        n.0_10 = n;
+        if (i < n.0_10) goto <D.49762>; else goto <D.49760>;
+        <D.49760>:
+        D.53862 = 0;
+        return D.53862;
+      }
+    finally
+      {
+        n = {CLOBBER(eol)};
+      }
+  }
+  D.53862 = 0;
+  return D.53862;
+}
+
+
